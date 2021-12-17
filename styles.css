@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  position: relative;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(61, 44, 141, 1) 45%, rgba(0, 212, 255, 1) 100%);
+}
+
+a {
+  color: white;
+}
+
+.top-container {
+  /* border: 1px solid red; */
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.calculator {
+  /* border: 1px solid yellow; */
+  display: inline-block;
+  width: 150px;
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-30%,-50%);
+  text-align: center;
+}
+
+#num1, #num2 {
+  width: 30px;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid #DBEDF3;
+  border-radius: 5px;
+  background-color: inherit;
+  color: #FFC93C;
+}
+
+#operator {
+  width: 15px;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  color: #FFC93C;
+  background-color: inherit;
+}
+
+#submit {
+  width: 50px;
+  border-radius: 5px;
+  border: 2px solid #DBEDF3;
+  font-weight: 500;
+  font-family: 'Arvo', cursive;
+  color: #FFC93C;
+  background-color: inherit;
+  text-shadow: 0.5px 0 black;
+}
+
+.answer {
+  color: #FFC93C;
+  font-size: 20px;
+  text-shadow: 2px 0 black;
+}
+
+.title {
+  /* border: 1px solid yellow; */
+  margin: 0;
+  padding: 5px;
+  display: inline-block;
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  font-weight: 900;
+  text-shadow: 3px 0 black;
+}
+
+.title-kit-spn {
+  vertical-align: -74px;
+}
+
+.drums-title-img {
+  vertical-align: bottom;
+  width: 130px;
+}
+
+.middle-contaier {
+  /* border: 1px solid red; */
+  margin-bottom: 15%;
+  text-align: center;
+}
+
+.drum-kit {
+  /* border: 1px solid yellow; */
+  display: inline-block;
+}
+
+.drum {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  /* An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out". */
+  outline: none;
+  border: 10px solid #DBEDF3;
+  border-radius: 15px;
+  font-family: 'Arvo', cursive;
+  font-size: 4rem;
+  font-weight: 900;
+  color: #FFC93C;
+  box-shadow: 3px 3px 5px 2px black;
+  text-shadow: 3px 0 black;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.q {}
+
+.w {}
+
+.e {}
+
+.r {}
+
+.a {}
+
+.s {}
+
+.d {}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+footer {
+  /* border: 1px solid red; */
+  text-align: center;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+}
+
+@media (max-width: 1024px) {
+  .calculator {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) {
+  .calculator {
+    display: none;
+  }
+}
